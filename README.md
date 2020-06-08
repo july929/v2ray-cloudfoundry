@@ -30,15 +30,17 @@ applications:
 
 \- path: .
 
-  name: GetStartedGo//change this name to your cloudfoundry name
+  name: V2ray//change this name to your cloudfoundry name
 
   random-route: true
 
-  memory: 128M//change memory to 64M,128M,256M
+  memory: 256M//change memory to 64M,128M,256M
 
   
 
 `ibmcloud target --cf`
+
+`ibmcloud cf install`
 
 `ibmcloud cf push`
 
@@ -71,15 +73,17 @@ applications:
 
 \- path: .
 
-  name: GetStartedGo//这里改成你的容器的名称
+  name: V2ray//这里改成你的容器的名称
 
   random-route: true
 
-  memory: 128M//这里改成你的容器的内存
+  memory: 256M//这里改成你的容器的内存
 
   
 
 `ibmcloud target --cf`
+
+`ibmcloud cf install`
 
 `ibmcloud cf push`
 
