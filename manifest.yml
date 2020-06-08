@@ -1,5 +1,5 @@
 applications:
 - path: .
-  name: V2ray
+  name: yovber
   random-route: true
   memory: 256M
