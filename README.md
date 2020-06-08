@@ -30,7 +30,7 @@ applications:
 
 \- path: .
 
-  name: yovber//change this name to your cloudfoundry name
+  name: V2ray//change this name to your cloudfoundry name
 
   random-route: true
 
@@ -73,7 +73,7 @@ applications:
 
 \- path: .
 
-  name: yovber//这里改成你的容器的名称
+  name: V2ray//这里改成你的容器的名称
 
   random-route: true
 
